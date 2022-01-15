@@ -310,6 +310,10 @@ footer p .fab{
         grid-template-columns: repeat(2, 1fr);
 
     }
+.info {
+    flex-direction: row;
+    width: 100%;
+}
 
     
 }
