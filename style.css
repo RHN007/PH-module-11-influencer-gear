@@ -91,6 +91,7 @@ a .nav-title{
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
+    border:none;
 }
 
 
@@ -179,8 +180,18 @@ p .filled, .fa-star-half-full {
     color: #787885;
     font-size: 15px;
     font-weight: 700;
-    line-height: 143%;
-    
-    
+    line-height: 143%;    
 }
 
+.collection-btn p {
+    position: relative;
+    padding-left: 60%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: rgba(224, 44, 109, 0.87);
+    
+}
