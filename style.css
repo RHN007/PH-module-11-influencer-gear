@@ -10,15 +10,13 @@
 --------******-------*/
 body{
     font-family:'Poppins','Manrope',
-    sans-serif;
-   right: 0;
-   left: 0;
-   margin-right: auto;
-   margin-left: auto;
-   min-height: 10em;
-   width: 90%; 
-    
+    sans-serif; 
+   width: 1140px;
+   margin: 0 auto;
 }
+
+
+
 
 section{
     margin-bottom: 100px;
@@ -194,4 +192,48 @@ p .filled, .fa-star-half-full {
 
     color: rgba(224, 44, 109, 0.87);
     
+}
+
+/*------******------- 
+ Footer Style Section 
+--------******-------*/
+footer{
+    background-color: rgb(10, 8, 38);
+    width: 100%;
+    height: 240px;
+    text-align: center;    
+}
+
+#footer{ 
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+footer h3{
+    font-family: Poppins;
+     font-weight: 700;
+    font-size: 24px;
+    color:#FFFFFF; 
+}
+
+footer p{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #D9DBE1;
+}
+
+footer p .fab{
+    color:#FFFFFF;
+    height: 32px;
+    width: 32px;
+    font-size: 20px;
+    margin-left: 16px;
 }
