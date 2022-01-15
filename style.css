@@ -285,7 +285,7 @@ footer p .fab{
         height: 100%;
     }
    .banner-img:hover img {
-       transform: scale(.8) rotate(180deg);
+       transform: scale(.8) rotate(360deg);
 
    }
 
