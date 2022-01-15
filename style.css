@@ -311,21 +311,12 @@ footer p .fab{
 
     }
 .info {
-    flex-direction: row;
     width: 100%;
+    flex-wrap: wrap;
 }
 
     
 }
-
-
-
-
-
-
-
-
-
 
 
 /* On screens that are 480px or less,*/
