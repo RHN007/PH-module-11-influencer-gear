@@ -11,16 +11,12 @@
 body{
     font-family:'Poppins','Manrope',
     sans-serif;
-    ;
-   position: fixed;
-   /* center the element */
    right: 0;
    left: 0;
    margin-right: auto;
    margin-left: auto;
-   /* give it dimensions */
    min-height: 10em;
-   width: 90%;
+   width: 90%; 
     
 }
 h1{
@@ -88,4 +84,19 @@ a .nav-title{
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
+}
+
+
+/*------******------- 
+    Logo Items Style  
+--------******-------*/
+
+.logo{
+    display: flex;
+    ;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 80%;
+    margin-top: 100px;
+    border: 2px solid antiquewhite;
 }
