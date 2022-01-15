@@ -13,10 +13,11 @@ body{
     sans-serif; 
    width: 100%;
    margin: 0 auto;
-   padding-left: 20px;
+   
 }
-section{
+header , main{
     margin-bottom: 100px;
+    padding-left: 30px;
 }
 
 
@@ -180,6 +181,10 @@ p .filled, .fa-star-half-full {
     font-weight: 700;
     line-height: 143%;    
 }
+.collection-btn {
+   padding-left: 60%;   
+}
+
 
 .collection-btn p {
     position: relative;
@@ -189,7 +194,6 @@ p .filled, .fa-star-half-full {
     font-weight: bold;
     font-size: 16px;
     line-height: 24px;
-
     color: rgba(224, 44, 109, 0.87);
     
 }
@@ -228,7 +232,7 @@ footer{
     background-color: rgb(10, 8, 38);
     width: 100%;
     height: 240px;
-    text-align: center;    
+    text-align: center; 
 }
 
 #footer{ 
@@ -263,24 +267,84 @@ footer p .fab{
 /*------******------- 
  Media Query Section  
 --------******-------*/
-/* On screens that are 480px or less, set the background color to olive */
+@media only screen and (min-width:481px) and (max-width:992px) {
+    nav h3 {
+        font-size: 30px;
+        font-weight: bold;
+        color:red
+        
+    }
+
+    #banner {
+        padding-left: 20px;
+    }
+
+
+    .banner-img img {
+        width: 100%;
+        height: 100%;
+    }
+   .banner-img:hover img {
+       transform: scale(.8) rotate(180deg);
+
+   }
+
+
+    .logo {
+        margin-bottom: 100px;
+        border:none;
+        align-content: space-between;
+        width: 100%;
+    }
+    .logo-div {
+        padding-left: 10px;
+    }
+
+    .banner-img img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    #popular-items {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* On screens that are 480px or less,*/
 @media only screen and (max-width: 480px) {
   body{
       width: 100%;
-      margin : 0 auto;     
+      margin : 0 auto;  
+      text-align: center; 
+      padding-left: 0;  
   }
   #banner {
       grid-template-columns: repeat(1, 1fr);
   }
   .banner-img img {
-      width: 100%;
-      height: 100%;
+      width: 80%;
+      height: 80%;
   }
 .logo {
     flex-direction: column;
     width: 100%; 
     height: 100px;
-   border: none;   
+   border: none;  
+   margin-bottom: 70px; 
 }
 .logo-div{
     padding-bottom: 10px;
@@ -290,10 +354,15 @@ footer p .fab{
       height: 100%;
       
   }
+   .banner-img:hover img {
+       transform: scale(.7) rotate(60deg);
+      
+   }
 #popular-items {
-    grid-template-columns: repeat(1, 1fr);
-
-    
+    grid-template-columns: repeat(1, 1fr);   
+}
+.collection-btn {
+    padding: 0;
 }
 .info {
    flex-direction: column
@@ -308,40 +377,5 @@ footer {
 
   /* For Table size devices */
 
-@media only screen and (min-width:481px) and (max-width:992px){
-    body {
-        background-color: red;
-       
-    }
-
-     #banner {
-       padding-left: 20px;}
-
-    .banner-img img {
-        width: 100%;
-        height: 100%;
-    }
-
-    
-
-    .logo-div {
-        padding-bottom: 15px;
-    }
-
-    .banner-img img {
-        width: 100%;
-        height: 100%;
-
-    }
-
-    #popular-items {
-        grid-template-columns: repeat(2, 1fr);
-        
-    }
-
-    .info {
-        flex-direction: column
-    }
-}
 
 
